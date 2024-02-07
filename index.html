@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Radius</title>
+  <link rel="stylesheet" href="radius.css">
+</head>
+<body>
+  
+  <div class="wrap">
+    <div class="left">
+      <p>All Corners Radius</p>
+      <input type="range" value="10" max="200" class="all-corners">
+      <p>Top Left Radius</p>
+      <input type="range" value="10" max="200" class="top-left">
+      <p>Top Right Radius</p>
+      <input type="range" value="10" max="200" class="top-right">
+      <p>Bottom Right Radius</p>
+      <input type="range" value="10" max="200" class="bottom-right">
+      <p>Bottom Left Radius</p>
+      <input type="range" value="10" max="200" class="bottom-left">
+      <p>Border Width</p>
+      <input type="range" value="0" max="200" class="b-width">
+      <p>Border Color</p>
+      <input type="color" value="#ff6550" class="b-color">
+      <p>Border Style</p>
+      <select class="b-style">
+        <option value="solid">Solid</option>
+        <option value="dashed">Dashed</option>
+        <option value="dotted">Dotted</option>
+        <option value="double">Double</option>
+      </select>
+    </div>
+    <div class="right">
+      <div class="block"></div>
+      <div class="out"></div>
+    </div>
+  </div>
+
+  <script src="radius.js"></script>
+</body>
+</html>
